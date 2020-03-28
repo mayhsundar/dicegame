@@ -14,6 +14,8 @@ var image2Path = getImagePath("images", rand2);
 // setting random image to player 2
 setImagePath(1, image2Path);
 
+//finally setting the result
+setResult();
 
 // creating a random number between 1-6
 function getRandomNumber(){
